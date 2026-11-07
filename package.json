@@ -1,0 +1,19 @@
+{
+  "name": "invitation-card-maker-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "sharp": "^0.35.5",
+    "tesseract.js": "^6.0.1"
+  }
+}
